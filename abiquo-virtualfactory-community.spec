@@ -2,7 +2,7 @@
 
 Name:     abiquo-virtualfactory-community
 Version:  1.7
-Release:  2%{?dist}%{?buildstamp}
+Release:  4%{?dist}%{?buildstamp}
 Summary:  Abiquo Virtual Factory
 Group:    Development/System 
 License:  Multiple 
@@ -35,6 +35,18 @@ rm -rf $RPM_BUILD_ROOT
 %{abiquo_basedir}/tomcat/webapps/virtualfactory
 
 %changelog
+* Mon Feb 14 2011 Sergio Rubio <srubio@abiquo.com> - 1.7-4
+- updated release string
+
+* Fri Feb 11 2011 Sergio Rubio <srubio@abiquo.com> - 1.7-3.20110211_114901
+- Upstream update
+
+* Wed Feb 09 2011 Sergio Rubio <srubio@abiquo.com> - 1.7-3.20110209_145339
+- Upstream update
+
+* Wed Feb 09 2011 Sergio Rubio <srubio@abiquo.com> - 1.7-3.20110209_142924
+- Upstream update
+
 * Wed Feb 02 2011 Sergio Rubio <srubio@abiquo.com> - 1.7-2
 - set buildarch to noarch
 
